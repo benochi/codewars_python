@@ -18,7 +18,7 @@ square_digits(9119) #return 811181
 square_digits(0) #return 0
 
 def square_digits(num):
-    ret = ""
+    string_int = ""
     for x in str(num):
-        ret += str(int(x) ** 2)
-    return int(ret)
+        string_int += str(int(x) ** 2)
+    return int(string_int)
